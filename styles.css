@@ -1,0 +1,15 @@
+body {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Regular.otf') format('opentype');
+}
+
+* {
+    font-family: 'Source San Pro';
+}
+
