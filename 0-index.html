@@ -7,36 +7,35 @@
     <title>Atlas Headphones</title>
     <link rel="stylesheet" href="0-styles.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
 </head> 
 <body>
+    <div class="wrap">
     <!-- HEADER -->
-    <header>
-        <div class="container">
-            <nav>
-                <input type="checkbox" id="menu-toggle">
-                <label for="menu-toggle" id="menu-btn"></label>
-                <img class="logo" src="images/logo_headphones.png" alt="logo">
-                <ul class="head-menu">
-                    <li><a href="#what-we-do">what we do</a></li>
-                    <li><a href="#our-results">our results</a></li>
-                    <li><a href="#contact-us">contanct us</a></li>
-                </ul>
-            </nav>
-            <div class="hero-section">
-                <h1 class="hero-title">Lorem ipsum dolor set amet lorem ipsum</h1>
-                <button class="btn">CALL TO ACTION</button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.</p>
-            </div>      
+    <header class="header">
+        <div class="head-logo">
+            <a><img src="images/logo_headphones.png" alt="logo"></a>
+        </div>
+        <div class="nav-menu">
+            <a href="#what-we-do">what we do</a>
+            <a href="#our-results">our results</a>
+            <a href="#contact-us">contanct us</a>
         </div>
     </header>
     <main>
+        <!-- HERO SECTION -->
+        <section class="hero">        
+            <div class="hero-section">
+                <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+            </div>
+            <div class="second-head">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+            <button class="button1">CALL TO ACTION</button>
+            <div class="hero-text">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, illum ab aliquid saepe quasi quia delectus. Cumque, repellat consequatur assumenda dolorum corrupti quasi officia nam numquam reprehenderit animi, incidunt architecto? Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+        <!-- what we do section -->
         <div id="what-we-do">
             <div class="container">
                 <h1 class="container-title">What we do...</h1>
@@ -61,6 +60,7 @@
                 </div>
             </div>
         </div>
+        <!-- results section -->
         <div id="results">
             <div class="container">
                 <h1 class="container-title">Our results speak for themselves</h1>
@@ -85,6 +85,7 @@
                 </div>
             </div>
         </div>
+        <!-- CONTACT SECTION -->
         <div id="contact">
             <div class="container">
                 <h1 class="container-title">Contact us</h1>
@@ -103,6 +104,7 @@
     </main>
 
     <footer>
+        <!-- FOOTER -->
         <div class="container">
             <nav>
                 <img src="images/logo_headphones.png" alt="Headphones Logo" class="logo">
@@ -115,5 +117,6 @@
                 <p>&#169;Headphones 2020</p>
         </div>
     </footer>
+    </div>
 </body>
 </html>
