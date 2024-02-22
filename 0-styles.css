@@ -20,5 +20,27 @@ main {
     display: block;
 }
 
+h1 {
+    font-size: 2em;
+    margin: .65em 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+header {
+    width: 100%;
+    background: transparent;
+    position: relative;
+    color:white;
+    background-image: url("images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 
